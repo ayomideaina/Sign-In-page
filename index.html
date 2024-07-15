@@ -7,32 +7,35 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <section id="sign-in">
-        <div class="signin-content">
-            <h1>Sign In to your account</h1>
-            <p>New User? <span>Sign Up</span></p>
-        </div>
-        <div class="image">
-            <img src="">
-        </div>
-        <div class="form">
-            <form>
-                <label for="name">Username:</label>
-            	<input type="text" id="name">
-            	<label for="Pword">Password:</label>
-            	<input type="password" id="Pword">
-            	<input type="button" value="Sign In">
-            </form>
-        </div>
+    <section id="main-content">
+        <!-- sign-in content -->
+        <section class="sign-in">
+            <div class="signin-content">
+                <h1>Sign In to your account</h1>
+                <p>New User? <span>Sign Up</span></p>
+            </div>
+            </div>
+            <!-- form -->
+            <div class="form-content">
+                <form>
+                    <label for="name">Username</label>
+                    <input type="text" id="name">
+                    <label for="Pword">Password</label>
+                    <input type="password" id="Pword">
+                    <input class ="button" type ="button" value="Sign In">
+                </form>
+            </div>
+        </section>
+        <!-- sign in options -->
+        <section id="signin-options">
+            <p>or</p>
+            <div class="options">
+                <img src="images/facebook.svg" alt="signin with facebook">
+                <img src="images/twitter.svg" alt="Signin with X ">
+                <img src="images/google-icon.svg" alt="Signin with google">
+            </div>
+            <p class="help">Get help signing in</p>
+        </section> 
     </section>
-    <section id="signin-options">
-        <p>or</p>
-        <div class="options">
-            <img src="./facebook-logo.png" alt="signin with facebook">
-            <img src="./x-logo.png" alt="Signin with X ">
-            <img src="./google-logo.png" alt="Signin with google">
-        </div>
-        <h3>Get help signing in</h3>
-      </section> 
 </body>
 </html>
