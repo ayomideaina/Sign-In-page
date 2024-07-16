@@ -8,19 +8,37 @@ body{
     background-size: cover;
     font-family:Tahoma;
 }
-#main-content {
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    margin-top:5rem;
+    margin-left: 6.9rem;
+}
+#logo p{
+    margin-left: 0.6rem;
+    color: #004E89;
+    font-size: 20px;
+    font-weight: 700;
+}
+#body-content {
     background-color: white;
-    max-width: 35%;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
+    min-width:30%;
+    margin-top: 5.5rem;
+    margin-right: 6.9rem;
+    padding: 1.3rem;
+    border-radius: 1.3rem;
 }
 .signin-content h1{
     color: #004E89;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 .signin-content p{
-    margin-bottom:15px ;
+    margin-bottom:0.9rem ;
 }
 span {
     color: #004E89;
@@ -28,29 +46,29 @@ span {
 }
 .form-content form {
     display: flex;
-    gap: 10px;
+    gap: 0.6rem;
     flex-direction: column;
 }
 .form-content input {
     background-color:#F4F6F9;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
     border: 1px solid #F4F6F9 ;
 }
 .form-content .button {
     background-color: #004E89;
     color: white;
-    margin: 15px 0px;
+    margin: 0.9rem 0rem;
 }
 #signin-options {
     text-align: center;
-    margin: 10px;
+    margin: 0.6rem;
 }
 #signin-options .options {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin: 15px 0px;
+    gap: 1.9rem;
+    margin: 0.9rem 0rem;
 }
 #signin-options .help {
     color: #004E89;
