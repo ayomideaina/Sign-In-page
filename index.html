@@ -5,43 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in page</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaquery.css">
 </head>
 <body>
-   `<main class="contents">  
     <!-- logo -->
-        <section id="logo">
-            <img src="images/logo.svg" alt="logo">
-            <p>ReadnReels</p>
-        </section>
-        <section id="body-content">
-            <!-- sign-in content -->
-            <section class="sign-in">
-                <div class="signin-content">
-                    <h1>Sign In to your account</h1>
-                    <p>New User? <span>Sign Up</span></p>
-                </div>
-                <!-- form -->
-                <div class="form-content">
-                    <form>
+    <section class="logo">
+      <img src="images/logo.svg" alt="logo">
+      <p>ReadnReels</p>
+    </section>
+    <section class="container">
+        <section class="body-content">
+            <div class="image">
+              <img class="bg" src="images/bg.jpg" alt="">
+            </div>
+            <section class="signin-form">
+                <form action="#">
+                    <div class="signin-text">
+                        <h1>Sign In</h1>
+                        <p>New User? <span>Sign Up</span></p>
+                    </div>
+                    <div class="form-content">
                         <label for="name">Username</label>
-                        <input type="text" id="name">
+                        <input type="text" id="name" placeholder="Enter your username">
                         <label for="Pword">Password</label>
-                        <input type="password" id="Pword">
-                        <input class ="button" type ="button" value="Sign In">
-                    </form>
-                </div>
+                        <input type="password" id="Pword" placeholder="Password">
+                    </div>
+                    <section class="help">
+                        <button type="submit" class="signin">Sign In</button>
+                        <a href="" class="get-help">Get Help signing in</a>
+                    </section>
+                </form>
             </section>
-            <!-- sign in options -->
-            <section id="signin-options">
-                <p>or</p>
-                <div class="options">
-                    <img src="images/facebook.svg" alt="signin with facebook">
-                    <img src="images/twitter.svg" alt="Signin with X ">
-                    <img src="images/google-icon.svg" alt="Signin with google">
-                </div>
-                <p class="help">Get help signing in</p>
-            </section> 
         </section>
-    </main>
+    </section>
+    <!-- footer section -->
+  <footer class="footer">
+    <div class="footer-down">
+      <div class="footer-div-details">
+        <p class="footer-head-line">  ReadnReels </p>
+        <ul class="footer-pages">
+          <li>Books</li>
+          <li>Movies</li>
+          <li>Anime</li>
+          <li>Cartoons</li>
+        </ul>
+      </div>
+      <div class="footer-div-details">
+        <p class="footer-head-line"> Contact Us</p>
+        <ul class="footer-pages">
+          <li class="contact-list">
+            <i class="fa-regular fa-envelope"></i>
+            <span class="foot-text">Email</span>
+          </li>
+          <li class="contact-item">
+             <i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></p>
+          </li>
+          <li class="contact-item">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Facebook</span>
+          </li>
+          <li class="contact-item">
+                <i class="fa-brands fa-x-twitter"></i>
+                <span>Twitter</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-div-details">
+        <p class="footer-head-line">About Us</p>
+        <ul class="footer-pages">
+          <li>Values</li>
+          <li>Sponsor</li>
+          <li>Mission</li>
+          <li>Vision</li>
+        </ul>
+      </div>
+      <div class="footer-div-details">
+        <p class="footer-head-line"> Blog</p>
+        <ul class="footer-pages">
+          <li>Books</li>
+          <li>Movies</li>
+          <li>Anime</li>
+          <li>Cartoons</li>
+        </ul>
+      </div>
+      <div class="footer-div-details">
+        <p class="footer-head-line">Terms and Privacy</p>
+        <ul class="footer-pages">
+          <li>Terms of use</li>
+        <li>Privacy Policy</li>
+        <li>Legal Document</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
